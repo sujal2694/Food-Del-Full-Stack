@@ -26,7 +26,7 @@ const Navbar = ({ setShowLogin }) => {
         <a href='#footer' onClick={() => setMenu("contact-us")} className={menu === "contact-us" ? "active" : ""}>Contact us</a>
       </ul>
       <div>
-        <Link to="https://food-del-admin-voub.onrender.com">
+        <Link to="https://tomato-admin-sandy.vercel.app/">
           <button className='admin-btn'>Admin</button>
         </Link>
       </div>
